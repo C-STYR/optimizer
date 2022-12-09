@@ -105,7 +105,7 @@ func handleRoot(db *sql.DB) http.Handler {
 }
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
+	rand.Seed(time.Now().UnixNano()) //creates a unique seed
 
 	log.Println("Using database 'optimizer.db'")
 	db, err := sql.Open("sqlite3", "optimizer.db")
