@@ -73,7 +73,7 @@ This process may not be optimized further...?
 ### `main()`
 
 1. create seed
-2. goroutine1 - connect to DB
+2. connect to DB
 3. goroutine1 - create table
 4. goroutine2 - convert all images to webp
 5. goroutine2 - get paths from "data"
